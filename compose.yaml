@@ -1,0 +1,7 @@
+﻿services:
+  imageguessr.api:
+    image: imageguessr.api
+    build:
+      context: .
+      dockerfile: ImageGuessr.Api/Dockerfile
+
